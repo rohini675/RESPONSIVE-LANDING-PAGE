@@ -18,7 +18,7 @@
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#why-choose">Why Choose</a></li>
         <li><a href="#faq">FAQ</a></li>
-        <li><a href="#footer">Contact</a></li>
+         <li><a href="#contact">Contact Us</a></li>
       </ul>
       <button class="menu-toggle" id="menu-toggle">☰</button>
     </div>
@@ -77,28 +77,25 @@
   <!-- Testimonials -->
   <section id="testimonials" class="testimonials reveal">
     <div class="container">
-      <h2>Real Smiles, Real Transformations</h2>
+      <h2>Real Smiles, Real Transformations</h2><br>
       <div class="testimonial-cards">
 
         <div class="testimonial">
-          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=200" alt="Ayesha">
+          <img src="./first.jpg" alt="Ayesha">
           <p>“Best dental experience ever!”</p>
-          <div class="stars">★★★★★</div>
-          <h4>– Ayesha</h4>
+         
         </div>
 
         <div class="testimonial">
-          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200" alt="Rahul">
+          <img src="./second.jpg" alt="Rahul">
           <p>“Painless and professional treatment.”</p>
-          <div class="stars">★★★★★</div>
-          <h4>– Rahul</h4>
+        
         </div>
 
         <div class="testimonial">
-          <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=200" alt="Meera">
+          <img src="./third.jpg" alt="Meera">
           <p>“Highly recommend Clove Dental.”</p>
-          <div class="stars">★★★★☆</div>
-          <h4>– Meera</h4>
+        
         </div>
 
       </div>
@@ -107,78 +104,71 @@
 
   <!-- Why Choose -->
   <section id="why-choose" class="why-choose reveal">
-    <div class="container">
-      <h2>Why Choose Clove Dental?</h2>
-      <ul class="reasons">
-        <li>✔️ Experienced Specialists</li>
-        <li>✔️ Modern Technology</li>
-        <li>✔️ 24/7 Support</li>
-        <li>✔️ Affordable Care</li>
-        <li>✔️ Strict Hygiene Standards</li>
-        <li>✔️ Patient-Centered Care</li>
-      </ul>
+      <div class="choose-content">
+        <summary>
+          <h2>Why Choose Clove Dental?</h2>
+      <p> Dental is India's Leading dental care brand with 600+ clinic nationwide.</p><br>
+      </summary>
+      </div>
+      <div class="choose-txt">
+        <ol>
+       <h4> DORI-A.I enabled Dental chair <br> <br>
+        10x Safaty and 4 steps sterilization process<br> <br>
+        experienced and Certified implantologist<br><br>
+        Updated with world class equipments<br><br>
+        regular audits for safety protocols <br><br>
+        24/7 Support </h4>
+        </ol>
+    </div>
+     <!----<div class="choose-txt">
+      <img src="./forth.jpg">
+      </div>-->
+      
     </div>
   </section>
 
   <!-- FAQ -->
-  <section id="faq" class="faq reveal">
-    <div class="container">
-      <h2>Frequently Asked Questions</h2>
+   <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+            <summary><b>Is root canal treatment painful? </b></summary>
+            <p>"No, modern root canal treatments are performed under anesthesia, making the procedure virtually painless".</p>
+        </details>
+        <details>
+            <summary><b>How long does the procedure take?</b></summary>
+            <p>It usually takes 1–2 sessions depending on the complexity of the case.</p>
+        </details>
+        <details>
+            <summary><b>Do I need a crown after RCT? </b></summary>
+            <p>Yes, in most cases a crown is recommended after root canal to protect the treated tooth.</p>
+        </details>
+        <details>
+        <summary> <b>What is the recovery time?</b> </summary>
+        <p> Most patients recover within a few days with minimal discomfort.</p>
+        </details>
+    </section>
 
-      <div class="faq-item">
-        <button class="faq-question">Is root canal treatment painful? <span>+</span></button>
-        <div class="faq-answer">
-          <p>No, modern root canal treatments are performed under anesthesia, making the procedure virtually painless.</p>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">How long does the procedure take? <span>+</span></button>
-        <div class="faq-answer">
-          <p>It usually takes 1–2 sessions depending on the complexity of the case.</p>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">Is root canal safe? <span>+</span></button>
-        <div class="faq-answer">
-          <p>Yes, root canal treatment is a safe and common dental procedure trusted worldwide.</p>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">What is the recovery time? <span>+</span></button>
-        <div class="faq-answer">
-          <p>Most patients recover within a few days with minimal discomfort.</p>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">Do I need a crown after RCT? <span>+</span></button>
-        <div class="faq-answer">
-          <p>Yes, in most cases a crown is recommended after root canal to protect the treated tooth.</p>
-        </div>
-      </div>
 
     </div>
   </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="submitForm(event)">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Book a free consultation</button>
+        </form>
+    </section>
+
 
   <!-- Footer -->
-  <footer id="footer" class="footer reveal">
-    <div class="container">
-      <p>© 2025 Clove Dental. All rights reserved.</p>
-      <div class="footer-info">
-        <p>Email: contact@clovedental.com | Phone: +91 98765 43210</p>
-        <div class="socials">
-          <a href="#">Facebook</a> | 
-          <a href="#">Instagram</a> | 
-          <a href="#">LinkedIn</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
+    <!-- Footer -->
+    <footer>
+        <p>&copy;  CloveDental.All Rights reserved-2024 ,Clove Dental (a board name of M/s SStar Dental Center Private Limited).Managed By Unbund</p>
+    </footer>
   <script src="script.js"></script>
 </body>
 </html>
-
