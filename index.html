@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MyBrand Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">MyBrand</div>
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+   <section id="hero">
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" alt="Brand Logo" class="logo">
+        <h1>Welcome to Our Service</h1>
+        <p>Discover the best solutions tailored for you.</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+</section>
+
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <h3>Responsive Design</h3>
+                <p>Works perfectly on all screen sizes and devices.</p>
+            </div>
+            <div class="card">
+                <h3>Customizable Themes</h3>
+                <p>Easily tailor the look and feel to suit your brand.</p>
+            </div>
+            <div class="card">
+                <h3>Performance Optimized</h3>
+                <p>Fast load times and smooth interactions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-options">
+            <div class="option">
+                <h3>Basic</h3>
+                <p>$10/month</p>
+                <button>Subscribe</button>
+            </div>
+            <div class="option featured">
+                <h3>Pro</h3>
+                <p>$30/month</p>
+                <button>Subscribe</button>
+            </div>
+            <div class="option">
+                <h3>Enterprise</h3>
+                <p>$100/month</p>
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-card">
+            <p>"MyBrand made it so easy to launch our website!"</p>
+            <h4>- Sarah T.</h4>
+        </div>
+        <div class="testimonial-card">
+            <p>"Beautiful designs and excellent performance."</p>
+            <h4>- Mark P.</h4>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+            <summary>How does this work?</summary>
+            <p>Simply choose your template, customize it, and deploy it live within minutes.</p>
+        </details>
+        <details>
+            <summary>Can I change themes later?</summary>
+            <p>Yes! Our editor allows you to change themes and content anytime.</p>
+        </details>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="submitForm(event)">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MyBrand. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
