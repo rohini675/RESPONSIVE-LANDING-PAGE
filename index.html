@@ -1,124 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>MyBrand Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clove Dental Landing Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="logo">MyBrand</div>
-        <div class="hamburger" id="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#features">Features</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
-   <section id="hero">
-    <div class="container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" alt="Brand Logo" class="logo">
-        <h1>Welcome to Our Service</h1>
-        <p>Discover the best solutions tailored for you.</p>
-        <a href="#contact" class="cta-button">Get Started</a>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">CloveDental</h1>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#treatments">Treatments</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#why-choose">Why Choose</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
     </div>
-</section>
+  </nav>
 
+  <!-- Hero Section -->
+  <section id="hero" class="hero reveal">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h2>Smile Bright with Confidence</h2>
+        <p>Your oral health is our priority. Advanced dental care with trusted specialists.</p>
+        <a href="#treatments" class="btn">Book Appointment</a>
+        <p class="tagline">24/7 emergency support | 100+ expert dentists | 50+ clinics nationwide</p>
+      </div>
+      <div class="hero-img">
+        <img src="https://img.freepik.com/free-photo/portrait-smiling-dentist-standing-dental-clinic_23-2147896175.jpg" alt="Doctor">
+      </div>
+    </div>
+  </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <h2>Features</h2>
-        <div class="feature-cards">
-            <div class="card">
-                <h3>Responsive Design</h3>
-                <p>Works perfectly on all screen sizes and devices.</p>
-            </div>
-            <div class="card">
-                <h3>Customizable Themes</h3>
-                <p>Easily tailor the look and feel to suit your brand.</p>
-            </div>
-            <div class="card">
-                <h3>Performance Optimized</h3>
-                <p>Fast load times and smooth interactions.</p>
-            </div>
+  <!-- Treatments -->
+  <section id="treatments" class="treatments reveal">
+    <div class="container">
+      <h2>Types of Root Canal Treatments</h2>
+      <p class="section-intro">We provide tailored treatments for every patient using advanced technology.</p>
+      <div class="cards">
+        <div class="card">
+          <img src="https://img.icons8.com/color/96/tooth.png" alt="Tooth">
+          <h3>Single Visit</h3>
+          <p>Quick and effective for simple cases.</p>
         </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
-        <h2>Pricing</h2>
-        <div class="pricing-options">
-            <div class="option">
-                <h3>Basic</h3>
-                <p>$10/month</p>
-                <button>Subscribe</button>
-            </div>
-            <div class="option featured">
-                <h3>Pro</h3>
-                <p>$30/month</p>
-                <button>Subscribe</button>
-            </div>
-            <div class="option">
-                <h3>Enterprise</h3>
-                <p>$100/month</p>
-                <button>Subscribe</button>
-            </div>
+        <div class="card">
+          <img src="dental-drill.png" alt="Dental Tools">
+          <h3>Multiple Visit</h3>
+          <p>For complex infections requiring multiple sessions.</p>
         </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <h2>Testimonials</h2>
-        <div class="testimonial-card">
-            <p>"MyBrand made it so easy to launch our website!"</p>
-            <h4>- Sarah T.</h4>
+        <div class="card">
+          <img src="https://img.icons8.com/color/96/dentist.png" alt="Dentist">
+          <h3>Re-treatment</h3>
+          <p>Corrects failed or incomplete procedures.</p>
         </div>
-        <div class="testimonial-card">
-            <p>"Beautiful designs and excellent performance."</p>
-            <h4>- Mark P.</h4>
+        <div class="card">
+          <img src="https://img.icons8.com/color/96/microscope.png" alt="Microscope">
+          <h3>Microscopic RCT</h3>
+          <p>High precision treatment under advanced dental microscopes.</p>
         </div>
-    </section>
+        <div class="card">
+          <img src="https://img.icons8.com/color/96/baby.png" alt="Pediatric">
+          <h3>Pediatric RCT</h3>
+          <p>Gentle root canal treatment for children’s teeth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- FAQ Section -->
-    <section id="faq" class="faq">
-        <h2>Frequently Asked Questions</h2>
-        <details>
-            <summary>How does this work?</summary>
-            <p>Simply choose your template, customize it, and deploy it live within minutes.</p>
-        </details>
-        <details>
-            <summary>Can I change themes later?</summary>
-            <p>Yes! Our editor allows you to change themes and content anytime.</p>
-        </details>
-    </section>
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials reveal">
+    <div class="container">
+      <h2>Real Smiles, Real Transformations</h2>
+      <div class="testimonial-cards">
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <form onsubmit="submitForm(event)">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" rows="4" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+        <div class="testimonial">
+          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=200" alt="Ayesha">
+          <p>“Best dental experience ever!”</p>
+          <div class="stars">★★★★★</div>
+          <h4>– Ayesha</h4>
+        </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 MyBrand. All rights reserved.</p>
-    </footer>
+        <div class="testimonial">
+          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200" alt="Rahul">
+          <p>“Painless and professional treatment.”</p>
+          <div class="stars">★★★★★</div>
+          <h4>– Rahul</h4>
+        </div>
 
-    <script src="index.js"></script>
+        <div class="testimonial">
+          <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=200" alt="Meera">
+          <p>“Highly recommend Clove Dental.”</p>
+          <div class="stars">★★★★☆</div>
+          <h4>– Meera</h4>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose -->
+  <section id="why-choose" class="why-choose reveal">
+    <div class="container">
+      <h2>Why Choose Clove Dental?</h2>
+      <ul class="reasons">
+        <li>✔️ Experienced Specialists</li>
+        <li>✔️ Modern Technology</li>
+        <li>✔️ 24/7 Support</li>
+        <li>✔️ Affordable Care</li>
+        <li>✔️ Strict Hygiene Standards</li>
+        <li>✔️ Patient-Centered Care</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq reveal">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <button class="faq-question">Is root canal treatment painful? <span>+</span></button>
+        <div class="faq-answer">
+          <p>No, modern root canal treatments are performed under anesthesia, making the procedure virtually painless.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">How long does the procedure take? <span>+</span></button>
+        <div class="faq-answer">
+          <p>It usually takes 1–2 sessions depending on the complexity of the case.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Is root canal safe? <span>+</span></button>
+        <div class="faq-answer">
+          <p>Yes, root canal treatment is a safe and common dental procedure trusted worldwide.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">What is the recovery time? <span>+</span></button>
+        <div class="faq-answer">
+          <p>Most patients recover within a few days with minimal discomfort.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Do I need a crown after RCT? <span>+</span></button>
+        <div class="faq-answer">
+          <p>Yes, in most cases a crown is recommended after root canal to protect the treated tooth.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer reveal">
+    <div class="container">
+      <p>© 2025 Clove Dental. All rights reserved.</p>
+      <div class="footer-info">
+        <p>Email: contact@clovedental.com | Phone: +91 98765 43210</p>
+        <div class="socials">
+          <a href="#">Facebook</a> | 
+          <a href="#">Instagram</a> | 
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
